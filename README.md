@@ -78,3 +78,7 @@ matplotlib). Tests: `uv run --extra test pytest`.
 This repository is public and holds no genome data: the tests build a
 made-up genome, and `.gitignore` keeps sequence, annotation and image files
 out of commits. Keep plots of unpublished genomes outside the clone.
+
+## License
+
+[MIT](LICENSE)

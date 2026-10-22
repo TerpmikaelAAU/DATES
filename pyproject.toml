@@ -3,6 +3,8 @@ name = "dates"
 version = "0.1.0"
 description = "Diagrams of Annotated T2T Eukaryotic Sequences: publication plots of annotated fungal genomes"
 readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
 requires-python = ">=3.11"
 dependencies = [
     "biopython>=1.84",
@@ -17,7 +19,7 @@ test = ["pytest>=8.0"]
 dates = "dates.cli:main"
 
 [build-system]
-requires = ["hatchling"]
+requires = ["hatchling>=1.27"]  # PEP 639 license metadata
 build-backend = "hatchling.build"
 
 [tool.hatch.build.targets.wheel]
